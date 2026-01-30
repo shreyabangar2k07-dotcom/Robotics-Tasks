@@ -1,15 +1,15 @@
 # Robotics-Tasks
-This repository includes tasks completed from coding domain and electronics domain.
 # Coding Domain
 ## Research and Study
 ### ESP32 Software Stack
 #### What is ESP32?
 The ESP32 is a 32-bit microcontroller developed by Espressif Systems. It features Wi-Fi and Bluetooth connectivity, making it ideal for Internet of Things(IoT) projects that require wireless communication. This is a low-cost, energy-efficient system on a chip (SoC) Microcontroller.
-<br>
-2. What is ESP32 used for?
+![alt text](image.png)
+
+#### What is ESP32 used for?
 The ESP32 is commonly used in IoT projects, smart home systems, wearables, security devices, environmental monitoring, and more. Its wireless capabilities and versatility make it ideal for creating connected devices.
 
-a. **IoT devices**: The ESP32 is often used to build IoT devices due to its built-in Wi-Fi and Bluetooth capabilities. It can be used to create smart home devices, environmental sensors(temperature, humidity, air quality sensors) and more.
+- **IoT devices**: The ESP32 is often used to build IoT devices due to its built-in Wi-Fi and Bluetooth capabilities. It can be used to create smart home devices, environmental sensors(temperature, humidity, air quality sensors) and more.
 
 - **Home automation**: ESP32-based devices can control lights, thermostats, and other home appliances through Wi-Fi or Bluetooth connections, making it a popular choice for DIY home automation projects.
 
@@ -28,6 +28,8 @@ a. **IoT devices**: The ESP32 is often used to build IoT devices due to its buil
 - **Security Systems**: It can be used in DIY security systems, including cameras, alarms, and access control systems.
 
 - **Healthcare**: ESP32 can be used in several healthcare solutions, such as patient monitoring, medication reminders, and telemedicine devices.
+
+#### What is the role of ESP32 in Robotics system?
 
 
 
