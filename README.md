@@ -15,7 +15,7 @@
 ### ESP32 Software Stack
 #### What is ESP32?
 The ESP32 is a 32-bit microcontroller developed by Espressif Systems. It features Wi-Fi and Bluetooth connectivity, making it ideal for Internet of Things(IoT) projects that require wireless communication. This is a low-cost, energy-efficient system on a chip (SoC) Microcontroller.
-![alt text](image.png)
+![alt text](images/p1.png)
 
 #### What is ESP32 used for?
 The ESP32 is commonly used in IoT projects, smart home systems, wearables, security devices, environmental monitoring, and more. Its wireless capabilities and versatility make it ideal for creating connected devices.
@@ -60,7 +60,7 @@ ESP32 in a robot handles three major roles
 The Arduino IDE is a beginner-friendly, high-level programming environment originally designed for Arduino boards. Over time, it has gained support for ESP32 and other microcontrollers. It is an open-source environment which consist of hardware and software(IDE).
 - Hardware such as Arduino UNO, NANO or Portenta like boards.
 - Software (IDE) - A simplified coding environment that uses programming structure of C/C++.
-![alt text](p3.png)
+![alt text](images/p3.png)
 
 **Features**
 - Install Arduino IDE, add the ESP32 board manager URL, and you’re ready to program.
@@ -81,6 +81,7 @@ For beginners who are just starting in robotics Arduino is the best choice since
 ESP-IDF, or Espressif IoT Development Framework, is an official development framework for ESP32 series of microcontrollers. The ESP IDF framework provides a set of libraries, tools, and APIs for developing ESP32 microcontroller based applications. It offers a wide range of features, commonly needed for the IoT applications and is designed to provide a comprehensive and flexible platform.
 One of the main advantages of ESP-IDF framework is that it fully supports both standard C and standard C++ programming languages, which allows to write efficient, high-performance code.
 Unlike Arduino, it provides full access to the hardware and deep FreeRTOS integration.
+![alt text](images/p2.png)
 **Features** 
 - **Native FreeRTOS Support**: Create tasks, set priorities, use queues and semaphores.
 - **Full Hardware Control**: Access all peripherals with precise timing and configuration.
