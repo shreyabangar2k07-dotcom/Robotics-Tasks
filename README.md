@@ -43,17 +43,17 @@ The ESP32 is commonly used in IoT projects, smart home systems, wearables, secur
 #### What is the role of ESP32 in Robotics system?
 ESP32 in a robot handles three major roles
 - **Commutination** : Unlike older microcontrollers, the ESP32 has built-in Wi-Fi and Dual-mode Bluetooth. This allows a robot to: 
-- - Remote Control: can be operated via phone and apps like Dabble.
-- - Receive new code wirelessly without being plugged into a computer.
-- - Send real-time sensor data back to a central server or PC for analysis.
+  - Remote Control: can be operated via phone and apps like Dabble.
+  - Receive new code wirelessly without being plugged into a computer.
+  - Send real-time sensor data back to a central server or PC for analysis.
 
 - **Hardware control** : The ESP32 features a rich set of Peripheral Interfaces that allow it to interact directly with robotic hardware:
-- - Pulse Width Modulation (PWM): Used to control the speed of DC motors and the precise positioning of Servo motors.
-- - I2C/SPI: To communicate with complex sensors like IMUs (Inertial Measurement Units), Lidars.
-- - Capacitive Touch: Can be used to create "skin" sensors for human-robot interaction.
+  - Pulse Width Modulation (PWM): Used to control the speed of DC motors and the precise positioning of Servo motors.
+  - I2C/SPI: To communicate with complex sensors like IMUs (Inertial Measurement Units), Lidars.
+  - Capacitive Touch: Can be used to create "skin" sensors for human-robot interaction.
 
 - **MultiTasking**: for example reading a sensor while driving a motor. ESP32 handles this because of
-- - Dual core Processor: one of the core maintians Wi-Fi connection while other focuses on robot's logic and movements.
+  - Dual core Processor: one of the core maintians Wi-Fi connection while other focuses on robot's logic and movements.
 
 #### Arduino vs ESP-IDF
 ##### **Arduino**
