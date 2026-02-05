@@ -31,28 +31,27 @@ Given these considerations, it's advisable to set the pin to OUTPUT mode to ensu
 - **digitalWrite( )**
 The digitalWrite( ) function is used to decide the value of the pin. It can be set as either of the two values, HIGH or LOW.
 
-HIGH: For a board that is supplied with a maximum of 1V, it results in a 5V value whereas on a board with other values like 6V, it updates the value to 6V. <br>
-LOW: It sets the pin to the ground by setting a reference of 0V.
-If no pin is set with pinMode as OUTPUT, the LED may light dim.
+  HIGH: For a board that is supplied with a maximum of 1V, it results in a 5V value whereas on a board with other values like 6V, it updates the value to 6V. <br>
+  LOW: It sets the pin to the ground by setting a reference of 0V.<br>
+  If no pin is set with pinMode as OUTPUT, the LED may light dim.
 
-syntax:<br>
-  digitalWrite( pin, value HIGH/LOW)
-Pin: We can specify the PIN or the declared variable.
+  syntax:<br>
+    digitalWrite( pin, value HIGH/LOW)
+  Pin: We can specify the PIN or the declared variable.
 
-Example:<br>
-digitalWrite (6, HIGH);  
-digitalWrite (6, LOW);
-
+  Example:<br>
+  digitalWrite (6, HIGH);  
+  digitalWrite (6, LOW);
 
 - **delay ( )**
-The delay() function serves as a tool to halt program execution for a specified duration, measured in milliseconds. We have seen how delay(5000) signifies a stop of 5 seconds.<br>
-This can be understood by the fact that 1 second equals 1000 milliseconds.
+  The delay() function serves as a tool to halt program execution for a specified duration, measured in milliseconds. We have seen how delay(5000) signifies a stop of 5 seconds.<br>
+  This can be understood by the fact that 1 second equals 1000 milliseconds.
 
-Example:<br>
-digitalWrite (12, HIGH);  
-delay (5000);  
-digitalWrite (12, LOW);  
-delay (2000);
+  Example:<br>
+  digitalWrite (12, HIGH);  
+  delay (5000);  
+  digitalWrite (12, LOW);  
+  delay (2000);
 
 **Arduino - I/O Functions**
 - Arduino pins are by default configured as inputs
