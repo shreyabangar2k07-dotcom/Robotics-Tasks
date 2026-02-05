@@ -102,7 +102,7 @@ much easier.
 #### What is ESP32?
 The ESP32 is a 32-bit microcontroller developed by Espressif Systems. It features Wi-Fi and Bluetooth connectivity, making it ideal for Internet of Things(IoT) projects that require wireless communication. This is a low-cost, energy-efficient system on a chip (SoC) Microcontroller.
 <p align="center">
-  <img src="images/p1.png" width="400"/>
+  <img src="images/p1.png" width="700"/>
 </p>
 
 #### What is ESP32 used for?
