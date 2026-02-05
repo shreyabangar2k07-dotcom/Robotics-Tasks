@@ -1,7 +1,9 @@
 # Robotics-Tasks
 # Coding Domain
 ## Research and Study
-
+The output demonstration video has been uploaded to Google Drive and can be accessed using the link provided below.
+https://drive.google.com/drive/folders/1F-xGM8YQBeJsN1WESzYnb6wH9iPyfPYY?usp=sharing
+The video file exceeds GitHub’s 100 MB upload limit. Therefore, it has been shared via Google Drive.
 ### Arduino IDE Basics
 Arduino IDE (Integrated Development Environment) is a beginner-friendly, high-level coding environment that uses programming structure of C/C++.
 #### Arduino programming structure
