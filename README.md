@@ -163,8 +163,6 @@ The Arduino IDE is a beginner-friendly, high-level programming environment origi
 - **Less Performance Optimization**: Slower compile times and slightly larger binaries compared to ESP-IDF.
 - **Lower Control**: Hardware and peripherals are accessed through libraries, limiting low-level optimization.
 
-*arduino blinking code*
-
 For beginners who are just starting in robotics Arduino is the best choice since it doesn't need complex multitasking or precise hardware control unlike ESP-IDE.
 
 ##### **ESP-IDF**
@@ -185,9 +183,13 @@ Unlike Arduino, it provides full access to the hardware and deep FreeRTOS integr
 - Beginners may find the APIs complex.
 - Requires installation of Python, Git, toolchains, and environment variables.
 - Fewer Plug-and-Play Libraries: Many Arduino libraries need porting to ESP-IDF.
+<p align ="center">
+  <img src="p4.png" width="400"/>
+  <img src="p5.png" width="400"/>
+</p>
+The Arduino code was compiled and tested on Arduino UNO.<br>
+The ESP-IDF example is shown to demonstrate the FreeRTOS-based workflow and API structure.<br>
 
-*led blinking code in esp-idf*
-
-Notice the use of FreeRTOS vTaskDelay instead of Arduino’s delay(). This allows other tasks to run concurrently.
+Notice the use of FreeRTOS vTaskDelay instead of Arduino’s delay(). This allows other tasks to run concurrently.<br>
 
 ESP-IDE is the best for professional and large scale projects since it provides  full control over FreeRTOS tasks and priorities and optimized performance and precise timing.
