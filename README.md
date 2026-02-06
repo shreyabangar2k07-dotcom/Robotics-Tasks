@@ -184,8 +184,8 @@ Unlike Arduino, it provides full access to the hardware and deep FreeRTOS integr
 - Requires installation of Python, Git, toolchains, and environment variables.
 - Fewer Plug-and-Play Libraries: Many Arduino libraries need porting to ESP-IDF.
 <p align ="center">
-  <img src="p4.png" width="400"/>
-  <img src="p5.png" width="400"/>
+  <img src="images/p4.png" width="400"/>
+  <img src="images/p5.png" width="400"/>
 </p>
 The Arduino code was compiled and tested on Arduino UNO.<br>
 The ESP-IDF example is shown to demonstrate the FreeRTOS-based workflow and API structure.<br>
